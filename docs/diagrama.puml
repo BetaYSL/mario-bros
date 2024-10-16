@@ -18,4 +18,8 @@ Usuario o-- Mascota
 Mascota *-- Felicidad
 Juego *-- Usuario
 Juego *-- Mascota
-Felicidad --
+Felicidad --|> Porcentaje
+
+
+
+@enduml
