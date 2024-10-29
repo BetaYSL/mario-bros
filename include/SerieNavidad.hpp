@@ -34,6 +34,7 @@ public:
     }
     void Imprimir()
     {
+        system("color 84");
         for (auto &&focoActual : focos)
         {
             std::cout
